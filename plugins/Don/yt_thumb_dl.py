@@ -30,6 +30,6 @@ async def send_thumbnail(bot, update):
         await message.delete()
     except Exception as error:
         await message.edit_text(
-            text="**Please Use** /ytthumb (youtube link)\n\n**Example:** `/ytthumb https://youtu.be/examplelink`",
+            text="**Please Use** /ytthumb (group like )\n\n**Example:** `/ytthumb https://t.me/MMCINEMACHAKKU`",
             disable_web_page_preview=True
         )
